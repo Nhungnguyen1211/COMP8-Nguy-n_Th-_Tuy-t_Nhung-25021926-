@@ -1,0 +1,42 @@
+'''if:nếu
+elif: ngược lại +nếu 
+else: ngược lại
+flowchart:
+    + tròn : start
+    + hcn :input, print , biểu thức
+    + thoi : điều kiện 
+    + mũi tên: true or False
+    + kết thúc tất cả các kết quả nhánh về 1 phía ô vuông print
+    + lặp thì vẽ tròn 
+    lặp thì n lần còn kiểm tra sẽ là n+1 lần để thoát ra ngoài
+    VD : s="abc"
+        len(s)=3
+        check=4
+    return thoát ra function
+    break thoát ra khỏi vòng lặp
+
+def có thể gắn biến f=0 sau đó return f
+thay vì mỗi lần if elif else lại phải return
+list:
+    index đầu tiên là 0 không phải 1
+    ko biết số lương bao nhiêu
+for item in lst:
+mẫu for <biến lặp> in <chuỗi lặp>:
+        <var>/variable         <seq>/1 sequence
+        # body
+    gán giá trị trong chuỗi cho biến lặp sau đó thực hiên các câu lệnh( đến khi hết index)
+pass tránh gặp lỗi bỏ qua luôn
+range(): tạo dãy số
+list range(1, n+1) tạo dãy số từ 1 đến n
+VD r=range(1,6)
+r start=1 r[0]=1
+r stop=6 r[5]=5
+**** phân biệt giá trị và index****
+giá trị(tác động giá trị)   index<vị trí>(tác động vào danh sách)
+for <var> in <list>         for idx in range(len(list))  
+    print(item)(can)               print(lst[idx])(must)
+lấy ra                       truy cập
+list lồng list đều đc đánh thứ tự 
+index h[1][2]
+BTVN đỏi hàng thàng cột
+'''

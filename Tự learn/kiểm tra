@@ -1,0 +1,5 @@
+a="1e352326347sdsgcdsg"
+print(a.isdigit())
+#cách kiếm tra chuỗi có chứa số không
+b="1e352326347sdsgcdsg"
+print(any(char.isdigit() for char in b))
